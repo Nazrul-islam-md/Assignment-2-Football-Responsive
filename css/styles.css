@@ -28,6 +28,9 @@ ul{
 .left-nav{
     margin-left: 70px;
 }
+.left-nav li a:hover{
+    color: gainsboro;
+}
 ul>span{
     display: flex;
 }
@@ -119,6 +122,7 @@ ul li a{
 .highlight-section{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 158px;
 }
 .highlight-info{
@@ -126,7 +130,7 @@ ul li a{
     height: 309px;
 }
 .highlight-info h1{
-    font-size: 48px;
+    font-size: 40px;
     color: #0A0826;
     margin-bottom: 8px;
 }
@@ -148,4 +152,25 @@ ul li a{
 .highlight-section img{
     width: 567px;
     height: 427px;
+}
+/* Footer section */
+footer{
+    text-align: center;
+}
+.upper-footer img{
+    width: 483px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.middle-footer .fab{
+    margin-left: 14px;
+    background-color: #ddd4d4;
+    padding: 3px;
+    border-radius: 100%;
+}
+.bottom-footer p{
+    font-size: 18px;
+    padding-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 63px;
 }
