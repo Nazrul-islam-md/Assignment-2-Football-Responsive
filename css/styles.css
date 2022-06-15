@@ -47,6 +47,9 @@ ul li a{
     padding: 10px 24px;
     margin-right: 124px;
 }
+.login:hover{
+    background-color: tomato;
+}
 .header-main{
     display: flex;
     justify-content: space-evenly;
@@ -65,6 +68,9 @@ ul li a{
     color: #FFFFFF;
     background-color: #E02C6D;
     text-decoration: none;
+}
+.header-title a:hover{
+    background-color: tomato;
 }
 .header-pic img{
     width: 556px;
@@ -108,4 +114,38 @@ ul li a{
     font-size: 16px;
     color: #6C6C6C;
     margin-top: 10px;
+}
+/* Highlights section */
+.highlight-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 158px;
+}
+.highlight-info{
+    width: 466px;
+    height: 309px;
+}
+.highlight-info h1{
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.highlight-info p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 24px;
+}
+.highlight-info a{
+    width: 168px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+}
+.highlight-info a:hover{
+    background-color: tomato;
+}
+.highlight-section img{
+    width: 567px;
+    height: 427px;
 }
